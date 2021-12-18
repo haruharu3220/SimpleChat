@@ -16,5 +16,11 @@ namespace SimpleChat.Views
         {
             InitializeComponent();
         }
+
+
+        private void SendButton_Click(object sender, EventArgs e)
+        {
+            this.ReceiveMessageTextBox.Text = this.SendMessageTextBox.Text;
+        }
     }
 }
