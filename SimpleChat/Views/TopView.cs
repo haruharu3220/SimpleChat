@@ -20,6 +20,7 @@ namespace SimpleChat.Views
 
         private void SendButton_Click(object sender, EventArgs e)
         {
+            //テスト
             this.ReceiveMessageTextBox.Text = this.SendMessageTextBox.Text;
         }
     }
